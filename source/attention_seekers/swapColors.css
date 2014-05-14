@@ -1,0 +1,13 @@
+@keyframes swapColor {
+  0%, 100% {
+    color: #005081;
+  }
+
+  50% {
+    color: #2AF2FD;
+  }
+}
+
+.swapColor {
+  animation-name: swapColor;
+}

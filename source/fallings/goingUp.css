@@ -1,0 +1,15 @@
+@keyframes goingUp {
+  0% {
+    transform: translateY(2000px);
+  }
+  80% {
+    opacity: 1.0;
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.goingUp {
+  animation-name: goingUp;
+}

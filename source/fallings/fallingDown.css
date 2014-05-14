@@ -1,0 +1,15 @@
+@keyframes fallingDown {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    opacity: 1.0;
+  }
+  100% {
+    transform: translateY(2000px);
+  }
+}
+
+.fallingDown {
+  animation-name: fallingDown;
+}
